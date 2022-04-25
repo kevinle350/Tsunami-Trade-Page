@@ -1,0 +1,46 @@
+.header {
+    position: absolute;
+    border: 0.0625 solid #1e2136;
+    border-radius: 0.25rem;
+    background: #04306b;
+    width: 65.3625rem;
+    height: 5rem;
+}
+
+.header-data {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto 1fr;
+    grid-column-gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+    width: 65.3625rem;
+    height: 4.25rem;
+}
+
+.data {
+    display: block;
+    align-items: center;
+}
+
+.title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+.data-description {
+    font-size: .8rem;
+    opacity: .7;
+    font-family: "Open Sans", sans-serif;
+    color: #a0a3c4;
+}
+
+.change-style {
+    color: #0ecc83;
+}
+
+.number-style {
+    color: white;
+}

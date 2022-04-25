@@ -1,0 +1,78 @@
+.navbar {
+    background: #054ba9;
+    height: 3.8125rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0.1px 10px black;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 1rem;
+    width: 31.7480625rem;
+    height: 3.8125rem;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.tsunami {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-format {
+    margin-right: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.trade-btn {
+    background: #2d42fc;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #fff !important;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 36px;
+    display: inline-flex !important;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    appearance: none;
+}
+
+.connect-btn {
+    width: 8.139625rem;
+    background: transparent;
+    color: #fff !important;
+    border: 0.1rem solid #fff;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    border-radius: 4px;
+}
+
+.link {
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: .5px;
+    color: #d3d3d3;
+    font-size: 15px;
+    line-height: 1.2rem;
+    font-weight: 400;
+    text-decoration: none;
+}

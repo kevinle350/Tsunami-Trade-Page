@@ -1,0 +1,67 @@
+.data-wrapper {
+    position: absolute;
+    display: block;
+    left: 12.5rem;
+    top: 6rem;
+}
+
+.buttons-grid {
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto 1fr;
+    align-items: center;
+    width: 8.71875rem;
+    height: 2.15625rem;
+    background: #191970;
+    border-radius: 0.25rem;
+}
+
+.buttons-grid-style {
+    width: 2.90625rem;
+    font-family: "Open Sans", sans-serif;
+    background: #191970;
+    border: 0;
+    background: none;
+    -webkit-appearance: none;
+    color: white;
+    font-size: 15px;
+}
+
+.graph {
+    margin-top: 5px;
+    background: #04306b;
+    width: 65.3625rem;
+    height: 26.5rem;
+    border: 0.0625 solid #1e2136;
+    border-radius: 0.25rem;
+}
+
+.positions-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65.3625rem;
+    height: 3rem;
+    color: white;
+}
+
+.positions {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto 1fr;
+    grid-column-gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+}
+
+.info-btn {
+    width: 4.3818125rem;
+    height: 1.375rem;
+    background-color: #054ba9;
+    padding: 0;
+    border: none;
+    background: none;
+    color: white;
+    letter-spacing: .5px;
+    font-size: 15.5px;
+}
