@@ -22,7 +22,7 @@
 
     opacity: .7;
     font-family: "Open Sans", sans-serif;
-    font-size: 15.5px;
+    font-size: 0.96875rem;
     color: #a0a3c4;
 }
 
@@ -40,12 +40,11 @@
     display: flex;
     align-content: center;
     justify-content: flex-start;
-    padding-left: 15px;
-    padding-top: 13px;
-
+    padding-left: 0.9375rem;
+    padding-top: 0.8125rem;
     color: white;
-    letter-spacing: .5px;
-    font-size: 15.5px;
+    letter-spacing: 0.03125rem;
+    font-size: 0.96875rem;
     font-family: "Open Sans", sans-serif;
     width: 65.3625rem;
     height: 3.1171875rem;
