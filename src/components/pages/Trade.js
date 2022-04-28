@@ -5,11 +5,15 @@ import Navbar from "../Navbar";
 import './Trade.css'
 import Form from 'react-bootstrap/Form'
 import Positions from "../Positions";
+import Footer from "../Footer";
 
 //@TODO Functionality of rendering different graph data on click
 //Responsiveness needs to be done
 function Trade() {
     const [span, setSpan] = useState("24h")
+    const [isPosition, setIsPosition] = useState(true)
+    const [isOrders, setIsOrders] = useState(false)
+    const [isTrades, setIsTrades] = useState(false)
     return (
         <>
             <div className="bg">
@@ -26,9 +30,9 @@ function Trade() {
                     </div>
                     <div className="positions-wrapper">
                         <div className="positions">
-                            <button className="info-btn">Positions</button>
-                            <button className="info-btn">Orders</button>
-                            <button className="info-btn">Trades</button>
+                            <button className={isPosition ? "info-btn clicked" : "info-btn "} onClick={() => {setIsPosition(true); setIsOrders(false); setIsTrades(false)}}>Positions</button>
+                            <button className={isOrders ? "info-btn clicked" : "info-btn"} onClick={() => {setIsPosition(false); setIsOrders(true); setIsTrades(false)}}>Orders</button>
+                            <button className={isTrades ? "info-btn clicked" : "info-btn"} onClick={() => {setIsPosition(false); setIsOrders(false); setIsTrades(true)}}>Trades</button>
                         </div>
                         <Form >
                             <Form.Check
@@ -41,7 +45,7 @@ function Trade() {
                     <Positions />
                 </div>
             </div>
-
+            <Footer />
         </>
     )
 }

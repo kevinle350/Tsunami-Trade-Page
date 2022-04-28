@@ -1,0 +1,23 @@
+.footer-bg {
+    position: relative;
+    background-color: #04306b;
+    width: 100vw;
+    height: 10.9375rem;
+    clear: both;
+    box-shadow: inset 0px 0.15625rem 0.1875rem rgba(50, 50, 50, 0.75);
+}
+
+.footer-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10.9375rem;
+}
+
+.footer-logo {
+    color: #fff;
+    letter-spacing: 0.03125rem;
+    font-size: 1.5625rem;
+    font-family: "Open Sans",sans-serif;
+}

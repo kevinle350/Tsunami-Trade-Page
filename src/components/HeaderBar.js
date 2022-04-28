@@ -7,7 +7,7 @@ function HeaderBar({ timeLength }) {
 
     var baseUrl = "https://api.coinranking.com/v2/coin/AaQUAs2Mc?timePeriod=24h"
     var proxyUrl = "https://cors-anywhere.herokuapp.com/"
-    var apiKey = "*****************************"
+    var apiKey = "coinranking6773e58e21da9e4871b2ffb42bce33d57ebaf53357bd52de"
 
     useEffect(() => {
         const fetchCoins = async () => {
