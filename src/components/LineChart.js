@@ -39,7 +39,7 @@ function LineChart({timeLength}) {
         };
 
         fetchCoins()
-    }, [baseUrl, proxyUrl, apiKey, chart?.price])
+    }, [baseUrl, proxyUrl, apiKey, chart?.price]) 
 
     var data = {
         labels: chart?.coin?.sparkline.map((price, index) => index),
@@ -91,3 +91,7 @@ function LineChart({timeLength}) {
 }
 
 export default LineChart;
+
+
+
+
